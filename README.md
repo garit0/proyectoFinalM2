@@ -29,6 +29,7 @@ https://garit0.github.io/proyectoFinalM1/
 
 **Repositorio en GitHub:**  
 https://github.com/garit0/proyectoFinalM1
+
 ---
 
 ## Pasos de despliegue
