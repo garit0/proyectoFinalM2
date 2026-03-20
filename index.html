@@ -3,160 +3,82 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>whoami</title>
-  <link rel="icon" type="image/x-icon" href="assets/icono.png">
+  <title>Judith Marquez | Portafolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="assets/icono.png">
 </head>
 
-<body>
+<<body class="theme-dark">
 
-<header align="center">
-  
-  <font face="Segoe UI" color="#080733">
-    <h1>Judith Marquez</h1>
-  </font>
-  <hr size="3" color="#F5C1F4">
+<header class="navbar">
+  <h1 class="logo">whoami</h1>
   <nav>
-     <font face="Segoe UI" size="2">
-    <a href="#sobre-mi">Sobre mí</a> |
-    <a href="#proyectos">Proyectos</a> |
-    <a href="#eventos">Eventos</a> |
+    <a href="#sobre-mi">Sobre mí</a>
+    <a href="#proyectos">Proyectos</a>
+    <a href="#eventos">Eventos</a>
     <a href="#contacto">Contacto</a>
-    </font>
   </nav>
-  <hr size="3" color="#F5C1F4">
 </header>
 
-<main align="center">
+<section class="hero">
+  <div class="hero-text">
+    <h2>Hola, soy Judith 👩‍💻</h2>
+    <p>Construyo soluciones con datos, IA y ciberseguridad.</p>
+    <a href="#proyectos" class="btn">Ver proyectos</a>
+  </div>
+  <img src="assets/yo.png" alt="Foto de Judith">
+</section>
 
-  <section id="sobre-mi">
-    <font face="Segoe UI" color="#110F61">
-    <h2>Sobre mí</h2>
-    </font>
-    <img src="assets/yo.png"
-         alt="Fotografía representativa mi persona"
-         width="250">
-    <font face="Segoe UI">     
-    <p>
-      Soy estudiante de Ingeniería en Sistemas Computacionales,<br>
-      apasionada por la programación, la ciencia de datos,<br>
-      la ciberseguridad y el desarrollo de soluciones tecnológicas<br>
-      con impacto real.
-    </p>
-    </font>
-  </section>
+<section id="proyectos" class="container">
+  <h2>Proyectos</h2>
+  <div class="cards">
 
-  <section id="proyectos">
-    <font face="Segoe UI" color="#110F61">
-    <h2>Proyectos</h2>
-    </font>
-    <article>
-      <font face="Segoe UI" color="#610F5E">
-      <h3>Modelo de Machine Learning</h3>
-      </font>
-      <font face="Segoe UI"> 
-      <p>
-        Desarrollo de un modelo supervisado para la predicción<br>
-        de abandono de clientes mediante técnicas de análisis de datos.<br>
-      </p>
-      </font>
-    </article>
+    <div class="card">
+      <h3>Machine Learning</h3>
+      <p>Modelo de predicción de abandono de clientes.</p>
+    </div>
 
-    <article>
-      <font face="Segoe UI" color="#610F5E">
-      <h3>Chatbots con Python</h3>
-      </font>
-      <font face="Segoe UI">
-      <p>
-        Desarrollo de bots conversacionales utilizando Python<br>
-        y procesamiento de lenguaje natural.<br>
-      </p>
-      </font>
-    </article>
+    <div class="card">
+      <h3>Chatbots</h3>
+      <p>Desarrollo de bots con Python y NLP.</p>
+    </div>
 
-    <article>
-      <font face="Segoe UI" color="#610F5E">
-      <h3>HackMex - Hackatón de Ciberseguridad</h3>
-      </font>
-      <font face="Segoe UI">      
-      <p>
-        Participación en hackatón de ciberseguridad,<br>
-        desarrollando soluciones para la protección de sistemas<br>
-        y análisis de vulnerabilidades en equipo multidisciplinario.<br>
-      </p>
-      </font>
+    <div class="card">
+      <h3>HackMex</h3>
+      <p>Soluciones de ciberseguridad en hackatón.</p>
+    </div>
 
-       <img src="assets/hackmex.png"
-         alt="Logo de la competencia"
-         width="250">
-    </article>
+  </div>
+</section>
 
-  </section>
+<section id="eventos" class="container">
+  <h2>Eventos</h2>
+  <div class="cards">
 
-  <section id="eventos">
-    <font face="Segoe UI" color="#110F61">
-    <h2>Eventos y Experiencias</h2>
-    </font>
-    <article>
-      <font face="Segoe UI" color="#610F5E">
-      <h3>Workshop en Google</h3>
-      </font>
-      <font face="Segoe UI">
-      <p>
-        Participación en workshop tecnológico en oficinas de Google,<br>
-        fortaleciendo conocimientos en desarrollo e innovación.<br>
-      </p>
-      </font>
-      <a href="https://rsvp.withgoogle.com/events/ellacode/home" target="_blank">
-        Sitio oficial del concurso
-      </a>
-    </article>
+    <div class="card">
+      <h3>Google Workshop</h3>
+      <a href="https://rsvp.withgoogle.com/events/ellacode/home" target="_blank">Ver más</a>
+    </div>
 
-    <article>
-      <font face="Segoe UI" color="#610F5E">
-      <h3>Voluntaria en Evento Cisco</h3>
-      </font>
-      <font face="Segoe UI">
-      <p>
-        Colaboración como voluntaria en evento tecnológico organizado<br>
-        por Cisco, apoyando en logística y aprendiendo sobre redes<br>
-        e infraestructura empresarial.
-      </p>
-      </font>
-      <a href="https://www.facebook.com/share/p/1CsYYkofiG/" target="_blank">
-        Publicación oficial del evento en Cisco
-      </a>
-    </article>
+    <div class="card">
+      <h3>Cisco Event</h3>
+      <a href="https://www.facebook.com/share/p/1CsYYkofiG/" target="_blank">Ver más</a>
+    </div>
 
-  </section>
-<br>
-  <section id="contacto">
-    <font face="Segoe UI" color="#110F61" >
-    <h2>¿Tienes alguna duda o proyecto colaborativo?<br> ¡Contáctame!</h2>
-    </font>
-    <form> <font face="Segoe UI" size="2">
-      <label for="correo">Correo electrónico:</label><br>
-      <input type="email" id="correo" name="correo" required><br><br>
+  </div>
+</section>
 
-      <label for="mensaje">Mensaje:</label><br>
-      <input type="text" id="mensaje" name="mensaje" required><br><br>
+<section id="contacto" class="container">
+  <h2>Contacto</h2>
+  <form class="form">
+    <input type="email" placeholder="Correo" required>
+    <textarea placeholder="Mensaje"></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+</section>
 
-      <label>
-        <input type="checkbox" required>
-        Acepto términos y condiciones
-      </label><br><br>
-
-      <button type="submit">Enviar</button>
-      </font>
-    </form>
-
-  </section>
-
-</main>
-<br>
-<hr color="#2C043A">
-
-<footer align="center">
-   <font face="Segoe UI" size="2"><p>© 2026 Judith Marquez | Proyecto Final HTML con GitHub Pages</p></font>
+<footer>
+  <p>© 2026 Judith Marquez</p>
 </footer>
 
 </body>
