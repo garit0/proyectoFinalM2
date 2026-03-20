@@ -3,83 +3,137 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Judith Marquez | Portafolio</title>
+  <title>whoami</title>
+  
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" href="assets/icono.png">
 </head>
+<body>
 
-<<body class="theme-dark">
+  <header class="navbar">
+    <h1 class="logo">whoami</h1>
+    
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+    <label for="menu-toggle" class="menu-btn">
+      <span class="hamburger"></span>
+    </label>
 
-<header class="navbar">
-  <h1 class="logo">whoami</h1>
-  <nav>
-    <a href="#sobre-mi">Sobre mí</a>
-    <a href="#proyectos">Proyectos</a>
-    <a href="#eventos">Eventos</a>
-    <a href="#contacto">Contacto</a>
-  </nav>
-</header>
+    <nav class="nav-links">
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#eventos">Eventos</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-<section class="hero">
-  <div class="hero-text">
-    <h2>Hola, soy Judith 👩‍💻</h2>
-    <p>Construyo soluciones con datos, IA y ciberseguridad.</p>
-    <a href="#proyectos" class="btn">Ver proyectos</a>
+  <main>
+    <section class="hero" id="sobre-mi">
+      <div class="hero-text">
+        <h2>Hola, soy Judith!</h2>
+        <p>Soy estudiante de Ingeniería en Sistemas Computacionales,
+apasionada por la programación, la ciencia de datos,
+la ciberseguridad y el desarrollo de soluciones tecnológicas
+con impacto real.</p>
+        <a href="#proyectos" class="btn">Ver proyectos</a>
+      </div>
+      <div class="hero-img-container">
+        <img src="assets/yo.png" alt="Fotografía de Judith Marquez">
+      </div>
+    </section>
+
+    <section id="proyectos" class="container">
+      <h2>Proyectos Destacados</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Machine Learning</h3>
+          <p>Modelo de predicción de abandono de clientes utilizando técnicas de aprendizaje supervisado.</p>
+        </article>
+        <article class="card">
+          <h3>Chatbots con Python</h3>
+          <p>Desarrollo de bots conversacionales inteligentes con procesamiento de lenguaje natural (NLP).</p>
+        </article>
+        <article class="card">
+          <h3>Ciberseguridad</h3>
+          <p>Participación y soluciones en el HackMex, enfocadas en pruebas de penetración y hardening.</p>
+        </article>
+      </div>
+    </section>
+
+
+    <section id="proyectos" class="container">
+      <h2>Proyectos Destacados</h2>
+      <div class="cards">
+        <article class="card">
+          <h3>Machine Learning</h3>
+          <p>Modelo de predicción de abandono de clientes utilizando técnicas de aprendizaje supervisado.</p>
+        </article>
+        <article class="card">
+          <h3>Chatbots con Python</h3>
+          <p>Desarrollo de bots conversacionales inteligentes con procesamiento de lenguaje natural (NLP).</p>
+        </article>
+        <article class="card">
+          <h3>Ciberseguridad</h3>
+          <p>Participación y soluciones en el HackMex, enfocadas en pruebas de penetración y hardening.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="eventos" class="container">
+      <h2>Eventos y Experiencias</h2>
+      <div class="cards">
+        
+        <article class="card">
+          <h3>Workshop en Google</h3>
+          <p>Participación en workshop tecnológico en oficinas de Google, fortaleciendo conocimientos en desarrollo e innovación.</p>
+          <a href="https://rsvp.withgoogle.com/events/ellacode/home" target="_blank" class="event-link">Sitio oficial del concurso →</a>
+        </article>
+
+        <article class="card">
+          <h3>Voluntaria en Evento Cisco</h3>
+          <p>Colaboración como voluntaria en evento tecnológico organizado por Cisco, apoyando en logística y aprendiendo sobre redes e infraestructura empresarial.</p>
+          <a href="https://www.facebook.com/share/p/1CsYYkofiG/" target="_blank" class="event-link">Publicación oficial del evento →</a>
+        </article>
+
+      </div>
+    </section>
+
+    <section id="contacto" class="container">
+      <div class="form-wrapper">
+        <h2>Hablemos de tecnología</h2>
+        <form class="form">
+          <label for="email">Correo electrónico</label>
+          <input type="email" id="email" name="email" required placeholder="tu@email.com">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" required placeholder="Cuéntame sobre tu proyecto o consulta..."></textarea>
+          <button type="submit">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <div class="cookies-banner">
+    <p>Este sitio usa cookies para mejorar tu experiencia 🍪</p>
+    <button class="cookies-btn">Aceptar</button>
   </div>
-  <img src="assets/yo.png" alt="Foto de Judith">
-</section>
 
-<section id="proyectos" class="container">
-  <h2>Proyectos</h2>
-  <div class="cards">
-
-    <div class="card">
-      <h3>Machine Learning</h3>
-      <p>Modelo de predicción de abandono de clientes.</p>
+  <footer class="site-footer">
+    <div class="footer-cols">
+      <div class="footer-brand-col">
+        <h4>Judith Marquez</h4>
+        <p>Portafolio profesional - Ciencia de Datos y Ciberseguridad.</p>
+      </div>
+      <div class="footer-links-col">
+        <h4>Links Profesionales</h4>
+        <ul>
+          <li><a href="https://github.com/garit0/" target="_blank">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/judith-marquezz/" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
     </div>
-
-    <div class="card">
-      <h3>Chatbots</h3>
-      <p>Desarrollo de bots con Python y NLP.</p>
-    </div>
-
-    <div class="card">
-      <h3>HackMex</h3>
-      <p>Soluciones de ciberseguridad en hackatón.</p>
-    </div>
-
-  </div>
-</section>
-
-<section id="eventos" class="container">
-  <h2>Eventos</h2>
-  <div class="cards">
-
-    <div class="card">
-      <h3>Google Workshop</h3>
-      <a href="https://rsvp.withgoogle.com/events/ellacode/home" target="_blank">Ver más</a>
-    </div>
-
-    <div class="card">
-      <h3>Cisco Event</h3>
-      <a href="https://www.facebook.com/share/p/1CsYYkofiG/" target="_blank">Ver más</a>
-    </div>
-
-  </div>
-</section>
-
-<section id="contacto" class="container">
-  <h2>Contacto</h2>
-  <form class="form">
-    <input type="email" placeholder="Correo" required>
-    <textarea placeholder="Mensaje"></textarea>
-    <button type="submit">Enviar</button>
-  </form>
-</section>
-
-<footer>
-  <p>© 2026 Judith Marquez</p>
-</footer>
+    <small class="footer-copy">© 2026 Judith Marquez. Todos los derechos reservados.</small>
+  </footer>
 
 </body>
 </html>
