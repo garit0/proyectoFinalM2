@@ -1,66 +1,53 @@
-# Proyecto Final - Portafolio Personal
+# Proyecto Final - Portafolio Profesional
 
 ## Propósito
 
-Este proyecto consiste en la creación y publicación de una página web básica desarrollada con HTML como práctica del uso de Git, GitHub y GitHub Pages.
+Este proyecto evolucionó de una estructura básica a un **portafolio profesional totalmente responsivo**. Fue desarrollado como práctica avanzada de maquetación web, integrando conceptos de **Diseño Responsivo (Mobile First)**, control de versiones con Git y despliegue automatizado.
 
-El sitio funciona como un mini portafolio personal donde presento proyectos tecnológicos relacionados con Machine Learning y desarrollo en Python, así como mi participación en el hackatón de ciberseguridad HackMex y experiencias en eventos tecnológicos como Google y Cisco.
-
-El objetivo principal fue reforzar la estructura semántica de HTML y aplicar buenas prácticas de control de versiones.
+El sitio presenta mi trayectoria como estudiante de Ingeniería en Sistemas, destacando proyectos en **Machine Learning**, **Ciberseguridad** y mi participación en eventos de élite tecnológica como **Google** y **Cisco**.
 
 ---
 
-## Características del sitio
+## Características Destacadas
 
-- Estructura HTML semántica
-- Jerarquía correcta de títulos
-- Enlaces externos funcionales
-- Imágenes con atributo `alt`
-- Formulario básico de contacto
-- Favicon personalizado
-- Publicación mediante GitHub Pages
-
----
-
-## Cómo ver el sitio
-
-URL pública (GitHub Pages):  
-https://garit0.github.io/proyectoFinalM1/
-
-Repositorio en GitHub:  
-https://github.com/garit0/proyectoFinalM1
+- **Diseño Mobile First:** Optimizado primero para dispositivos móviles y escalado para desktop.
+- **Navegación Inteligente:** Menú tipo hamburguesa funcional (Checkbox Hack) sin necesidad de JavaScript.
+- **Estética Cyberpunk/Pastel:** Paleta de colores personalizada con alto contraste para legibilidad profesional.
+- **Layout Moderno:** Uso intensivo de **Flexbox** y **CSS Grid** para una distribución fluida de tarjetas de proyectos y eventos.
+- **Interactividad CSS:** Efectos de *hover*, transiciones suaves y elementos con *backdrop-filter* (glassmorphism).
+- **Accesibilidad:** Uso de unidades relativas (`rem`, `em`, `vw`, `vh`) y atributos `alt` descriptivos.
+- **Despliegue Continuo:** Publicado mediante **GitHub Pages**.
 
 ---
 
-## Pasos de despliegue
+## Tecnologías Utilizadas
 
-1. Crear repositorio público en GitHub.
-2. Agregar el archivo `index.html` en la raíz.
-3. Realizar commits descriptivos.
-4. Subir cambios con `git push`.
-5. Activar GitHub Pages en Settings → Pages.
-6. Verificar que la URL funcione correctamente.
+- **HTML5:** Estructura semántica avanzada.
+- **CSS3:** Flexbox, Grid, Media Queries y Variables CSS (`:root`).
+- **Git & GitHub:** Gestión de versiones y flujo de trabajo profesional.
+- **Google Fonts:** Tipografía "Poppins" para un acabado limpio.
 
 ---
 
-## Límites y próximos pasos
+## Demo en Vivo
 
-### Límites actuales
-- No cuenta con estilos avanzados en CSS.
-- El formulario no tiene backend funcional.
-- No es completamente responsive.
-
-### Próximas mejoras
-- Implementar diseño responsive.
-- Agregar más proyectos.
-- Conectar el formulario a un servicio real.
-- Incorporar mejores prácticas de accesibilidad.
+Puedes visitar el portafolio aquí:  
+👉 [**Visualizar Portafolio**](https://garit0.github.io/proyectoFinalM1/)
 
 ---
 
-## Autor y licencia
+## Próximos Pasos
 
-Judith Marquez Zempoalteca  
-Proyecto académico con fines educativos.
+Aunque el diseño visual y responsivo está completo, el proyecto seguirá creciendo:
+- **JavaScript:** Añadir validaciones reales al formulario de contacto.
+- **Backend:** Conectar el formulario con *Formspree* o *EmailJS* para recibir mensajes reales.
+- **Dark Mode Toggle:** Implementar un switch para cambiar temas de color.
+- **Sección de Skills:** Añadir insignias dinámicas de lenguajes (Python, SQL, etc.).
+
+---
+
+## Autor y Licencia
+
+**Judith Marquez Zempoalteca** Estudiante de Ingeniería en Sistemas Computacionales.  
 
 Licencia MIT.
